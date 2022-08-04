@@ -1,0 +1,18 @@
+public class Vs {
+    public static void main(String[] args){
+        String insect1 = "Epeolus";
+        String insect2 = "Centris";
+        String temp;
+
+        temp = insect1;
+        insect1= insect2;
+        insect2=temp;
+
+
+
+
+        System.out.println("Insect 1: "+insect1);
+        System.out.println("Insect 2: "+insect2);
+
+    }
+}
